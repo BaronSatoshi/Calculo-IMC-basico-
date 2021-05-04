@@ -13,7 +13,7 @@ int main()
  scanf("%f", &peso);
 
  IMC = peso/(altura * altura);
-printf("Seu IMC vale %f",IMC);
+printf("Seu IMC vale %.2f",IMC);
 
 if(IMC < 18.5 || IMC > 24.9 ){
     printf("\nVoce nao esta no peso ideal!");
